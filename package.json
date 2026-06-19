@@ -1,0 +1,28 @@
+{
+  "name": "to-do-list-api",
+  "version": "1.0.0",
+  "description": "This is a simple To-Do List API project. My goal is to learn and practice core software engineering principles.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosTGodoy/to-do-list-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosTGodoy/to-do-list-api/issues"
+  },
+  "homepage": "https://github.com/CarlosTGodoy/to-do-list-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
